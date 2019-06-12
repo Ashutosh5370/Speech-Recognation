@@ -8,5 +8,6 @@ with sr.Microphone() as source:
     audio = r.listen(source)
 
     Text = r.recognize_google(audio)
+    
 
     print(Text)
